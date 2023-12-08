@@ -1,0 +1,71 @@
+@charset "utf-8";
+
+
+
+h2::before {
+    content: "荒牧 江莉奈\A";
+    white-space: pre;
+    font-size: 20px;
+}
+
+img {
+    border-radius: 50%;
+}
+
+.main_top {
+    width: 1600px;
+}
+
+.img {
+    width: 30%;
+}
+
+.main_detail {
+    width: 70%;
+}
+
+
+.hobby {
+    width: 460px;
+    margin: 0 auto;
+}
+
+.hobby dt {
+    text-align: center;
+}
+
+.flex {
+    display: flex;   
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.detail {
+    width: 920px;
+    margin: 0 auto;
+}
+
+.detail h3{
+    border-left: 10px solid gray;
+    border-bottom: 2px solid gray;
+    padding-left: 20px;
+
+}
+
+.background {
+    width: 920px;
+}
+
+.background div {
+    display: flex;   
+    flex-wrap: wrap;
+}
+
+.background dt{
+    width: 25%;
+}
+
+.background dd {
+    width: 75%;
+}
