@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>作品紹介 | Erina Aramaki</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/detail.css">
+</head>
+<body>
+  <header>
+    <nav>
+
+    </nav>
+  </header>
+
+  <main class="container">
+    <div class="video">
+      <video src="sample.mp4" autoplay muted playsinline loop poster="firstframe.jpg" controls></video>
+
+      <p><a href="https://github.com/Erina-Aramaki/WhatDoYouEatToday" target="_blank">公開しているコードはこちら</a></p>
+    </div>
+    <div class="main">
+      <div class="explane">
+        <p>このwebシステムは今日あなたが食べたいものを診断し、提案します。</p>
+        <p>材料からレシピを検索してくれるサイトや、食べたいものからお店を検索してくれるサイトを利用している方も多いのではないでしょうか。</p>
+        <p>しかし、「食べるもの」を提案してくれるサイトはあまり見かけません。</p>
+        <p>「食事のレパートリーが不足していて食べたいものが思い浮かばない」「いつもとは違うものが食べたい！」</p>
+        <p>そんな気持ちになったことはありませんか？</p>
+        <p>このアプリは、ボタンを選択していくだけであなたの希望に沿ったメニューを提案してくれます。</p>
+        <p>「何を食べたいのか自分でも分からない・・・！」そう思ったときは診断機能を使ってみてください。</p>
+      </div>
+
+      <!-- <section class="item">
+          <h3>制作状況</h3>
+          <p>2023年11月14日 製作開始。</p>
+      </section> -->
+      <section class="item">
+          <h3>使用技術</h3>
+          <ul>
+              <li>Java</li>
+              <li>MySQL</li>
+              <li>Git/GitHub</li>
+          </ul>
+      </section>
+      <section class="item">
+          <h3>機能一覧</h3>
+          <ul>
+              <li>ユーザー情報（登録機能、更新機能）</li>
+              <li>ユーザー詳細表示機能</li>
+              <li>ログイン機能</li>
+              <li>ログアウト機能</li>
+              <li>診断機能</li>
+              <li>レシピ一覧表示機能</li>
+              <li>お気に入り（登録機能、表示機能）</li>
+          </ul>
+      </section>
+      <section class="item">
+          <h3>今後実装予定</h3>
+          <ul>
+              <li>API（レシピ検索、お店検索）</li>
+              <li>サイトデザイン（CSS、JavaScript）</li>
+              <li>お気に入り削除機能</li>
+          </ul>
+      </section>
+      <section class="item">
+          <h3>苦労した点</h3>
+          <div class="margin_auto">
+            <p>SQL文に苦戦し、Qiitaなどのサイトで調べながら作成しました。<br>
+              試行錯誤を繰り返している中でSQLの面白さに気づくことができたため、今後も積極的にSQLを活用しながら学習を進めたいと思います。 </p>
+    
+              <h4>特に苦戦したこと</h4>
+              <p>テーブル結合したものに「ROW_NUMBER()」で連番を付与を付与し、ランダム関数の結果と一致する番号のカラムを取得</p>   
+          </div>
+          
+          <p>「WesternDaoImpl.java」の select(String strId) メソッド </p>
+          <div class="img">
+              <img src="image/WesternDaoImpl.PNG" alt="「WesternDaoImpl.java」の select(String strId) メソッド" id="image1" onclick="func1()" >
+              <!-- onmouseover="func1()" -->
+          </div>
+          <p>画像をクリックすると拡大し、再度画像をクリックすると縮小します</p>
+      </section>
+
+      <section class="item">
+        <h3>工夫したこと</h3>
+        <ol>
+          <li>メソッドにまとめる</li>
+          <p>可読性を高めるために、重複している記載はメソッドにまとめました。</p>
+          <li>if文、for文</li>
+          <p>if文やfor文の内容は様々な書き方ができますが、何度も見直し、短いけれど見やすいことを意識して書きました。</p>
+          <li>コメント</li>
+          <p>後任者の方にとって見やすくなるように、コメントを残すことを習慣にしました。</p>
+          <li>Factoryパターン</li>
+          <p>クラス同士の依存度を低くし、システム全体の柔軟性とメンテナンス性を向上させました。<br>また、ファクトリクラスを用いることでオブジェクト生成のロジックを集約させ、他の部分で再利用できるようにしました。<br>これにより、生成ロジックを繰り返し記述する手間を省くことができました。</p>
+        </ol>
+      </section>
+      <section class="item er">
+          <h3>ER図</h3>
+          <p>今後記載予定</p>
+      </section>
+          
+    </div>
+  </main>
+
+
+<!-- Bootstrap script-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+<script src="js/script.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+ 
+</body>
+</html>

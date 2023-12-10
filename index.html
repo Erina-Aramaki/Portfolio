@@ -5,50 +5,86 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>制作実績 | Erina Aramaki</title>
-     <!-- Bootstrap CSS -->
-     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+     
+     <!-- <link rel="stylesheet" href="css/reset.css"> -->
+     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
 
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="index.html">Erina's Portfolio</a>
-            <!-- collapse：折りたたみコンテンツ -->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-          
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <!-- mr-auto：右側に余白を設定し、ロゴやメニューを左寄せ -->
-                        <!-- mx-auto：水平方向に要素を中央に配置 -->
-              <ul class="navbar-nav mr-auto">
-                <!-- active：現在選択されていることを示す -->
-                <li class="nav-item active">
-                  <a class="nav-link" href="profile.html">Profile</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="works.html">Works</a>
-                </li>
-              </ul>
-            </div>
-          </nav>
+      <div class="flex">
+        <h1>○○○○</h1>
+        <nav>
+          <ul class="flex">
+            <!-- <li>Top</li> -->
+            <li><a href="#">Profile</a></li>
+            <li><a href="#">Work</a></li>
+          </ul>
+        </nav>
+      </div> 
     </header>
 
-    <main>
+    <div class="main_visual">
+      <p>Portfolio</p>
+    </div>
+
+    <main class="inner">
+      <div id="profile">
+        <h2>Profile</h2>
+        <div class="flex">
+          <figure>
+            <img src="image/profile.jpg" alt="プロフィール画像">
+          </figure>
+          <div class="introduce">
+            <dl>
+              <dt>氏名</dt>
+              <dd>荒牧江莉奈</dd>
+              <dt>居住地</dt>
+              <dd>東京都</dd>
+            </dl>
+            <p>当ページをご覧いただきありがとうございます。<br>都内でエンジニアをしている荒牧と申します。</p>
+            <p>頑張った1日の後にフルーツを食べることが楽しみの一つです。<br>また、毎年一資格を取得することを目標に勉学に励むことも趣味としております。</p>
+            <p><a href="profile.html">プロフィールはこちら</a></p>
+          </div>
+        </div>
+      </div>
         
+
+      <div id="work">
+        <h2>Work</h2>
+        <div class=" work_image flex">
+          <div id="slide1">
+            <figure><img src="image/green.png" alt="Works画像1"></figure>
+            <figcaption>テストテストテスト</figcaption>
+          </div>
+
+          <div id="slide2">
+            <figure><img src="image/green.png" alt="Works画像2"></figure>
+            <figcaption>テストテストテスト</figcaption>
+          </div>
+
+          <div id="slide3">
+            <figure><img src="image/green.png" alt="Works画像3"></figure>
+            <figcaption>テストテストテスト</figcaption>
+          </div>
+        </div>
+        <p><a href="works.html">制作実績はこちら</a></p>
+      </div>
+      
+      <section id="news">
+        <h2>News</h2>
+        <dl>
+          <dt>○年○月○日</dt>
+          <dd>ポートフォリオを開設いたしました。</dd>
+        </dl>        
+      </section>    
     </main>
 
     <footer>
-        <p><small>Copyright &copy; 2023 Erina Aramaki rights reserved.</small></p>
+      <p><small>Copyright &copy; 2023 Erina Aramaki rights reserved.</small></p>
     </footer>
-    
-    
-    <!-- Bootstrap script-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
 
     <script src="js/script.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>

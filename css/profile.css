@@ -1,71 +1,112 @@
 @charset "utf-8";
 
-
-
 h2::before {
     content: "荒牧 江莉奈\A";
     white-space: pre;
     font-size: 20px;
 }
 
-img {
-    border-radius: 50%;
+#profile .flex{
+    width: 400px;
+    flex-wrap: wrap;
 }
 
-.main_top {
-    width: 1600px;
+.flex{
+    flex-wrap: wrap;
 }
 
-.img {
+.profile dt {
     width: 30%;
 }
 
-.main_detail {
+.profile dd {
     width: 70%;
 }
 
-
-.hobby {
-    width: 460px;
-    margin: 0 auto;
+.live {
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
 }
 
-.hobby dt {
+.live li {
+    width: 50%;
+}
+
+#hobby {
+    width: 400px;
+}
+#hobby dt{
     text-align: center;
 }
+.hobby {
+  /* flex-wrap: wrap; */
+  list-style: none;
+  padding: 0;
+  justify-content: center;
+  text-align: center;
+}
 
-.flex {
-    display: flex;   
-    flex-wrap: wrap;
+.hobby .split {
+    width: 50%;
+}
+
+/* .live li:nth-child(2n) {
+    margin-left: 100px;
+} */
+
+.detail {
+    width: 1000px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+.work {
+    display: flex;
+}
+
+/* #work .flex {
+    display: flex;
+} */
+
+#work dl {
+    display: flex;
+    width: 1000px;
+    /* margin: 0 auto; */
+    /* justify-content: space-between; */
+}
+
+#work dt {
+    width: 50%;
+}
+
+#work dd {
+    width: 50%;
+}
+  
+.qualification {
+    display: flex;
     justify-content: space-between;
 }
 
-
-.detail {
-    width: 920px;
+.background {
+    display: flex;
     margin: 0 auto;
 }
 
-.detail h3{
-    border-left: 10px solid gray;
-    border-bottom: 2px solid gray;
-    padding-left: 20px;
-
-}
-
-.background {
-    width: 920px;
-}
-
-.background div {
-    display: flex;   
+#background .flex {
+    justify-content: space-between;
     flex-wrap: wrap;
 }
 
-.background dt{
-    width: 25%;
+#background dl {
+    width: 1000px;
+}
+
+.background dt {
+    width: 30%;
 }
 
 .background dd {
-    width: 75%;
+    width: 70%;
 }

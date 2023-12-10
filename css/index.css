@@ -1,0 +1,64 @@
+@charset "utf-8";
+
+.main_visual p::after {
+  content: "ポートフォリオ";
+}
+
+#profile, #work, #news {
+  margin-top: 50px;
+  border: solid 1px orange;
+  position: relative;
+  padding: 40px;
+}
+
+h2 {
+  position: absolute;
+  background-color: white;
+  font-size: 40px;
+}
+
+#profile h2, #work h2, #news h2 {
+  top: -30px;
+  left: 20px;
+}
+
+#profile img {
+  width: 400px;
+  height: auto;
+  border-radius: 50%;
+}
+
+
+.introduce {
+  margin-left: 70px;
+  width: 500px;
+}
+
+.introduce dl {
+  width: 200px;
+}
+
+.introduce dt {
+  width: 75px;
+  float: left;
+}
+
+.introduce dd {
+  padding-left: 75px;
+}
+
+#work figcaption {
+  text-align: center;
+}
+
+#slide2, #slide3 {
+  display: none;
+}
+
+#work p {
+  text-align: center;
+}
+
+#news {
+  
+}
