@@ -26,6 +26,35 @@ html {
 
 main {
   background-color: white;
+  padding-bottom: 30px;
+}
+
+h2 {
+  font-size: 30px;
+  display: block;
+  text-align: center;
+}
+
+h2::after {
+  content: "今日なに食べる？";
+  font-size: 20px;
+  display: block;
+  text-align: center;
+}
+
+.slide p {
+  text-align: center;
+}
+
+
+/* Change the link color to #111 (black) on hover */
+.slide a:hover {
+  background-color: pink;
+ }
+
+.item ul,ol {
+  margin: 30px;
+  list-style-type: square;
 }
 
 
