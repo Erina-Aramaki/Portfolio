@@ -1,6 +1,133 @@
 @charset "utf-8";
 
+li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    /* text-decoration: none; */
+  }
+      
+  /* Change the link color to #111 (black) on hover */
+   li a:hover {
+    background-color: pink;
+   }
+
 h2::before {
+    content: "荒牧 江莉奈\A";
+    white-space: pre;
+    font-size: 18px;
+}
+
+.main_visual p::after {
+    content: "自己紹介";
+  }
+  
+
+h2 {
+    font-size: 30px;
+}
+
+#profile figure img {
+    width: 400px;
+    height: auto;
+    border-radius: 50%;
+  }
+
+#profile dl{
+    width: 500px;
+    margin-top: 80px;
+}
+
+.introduce dt {
+    width: 25%;
+    float: left;
+}
+
+.introduce dd {
+    width: 75%;
+}
+
+.introduce ul.flex {
+    flex-wrap: wrap;
+}
+
+.introduce li {
+    width: 50%;
+}
+
+.hobby li:last-child {
+    width: 100%;
+}
+
+
+
+#profile, #qualification, #work, #background {
+    margin-top: 50px;
+    border: solid 10px pink;
+    position: relative;
+    padding: 40px;
+  }
+
+#qualification h3, #work h3, #background h3 {
+    top: -25px;
+    left: 20px;
+    padding: 0 20px;
+}
+
+h3 {
+    position: absolute;
+    background-color: white;
+    font-size: 30px;
+}
+
+.it_group {
+    width: 60%;
+}
+
+.other_group {
+    width: 40%;
+}
+
+#work dl{
+    width: 100%;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+
+#work dt{
+    width: 50%;
+    float: left;
+    
+}
+
+#work dd{
+    width: 50%;
+}
+
+#background dl{
+    width: 100%;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+#background dt {
+    margin-left: 200px;
+    width: 100px;
+}
+
+#background dd {
+    width: 300px;
+    margin-right: 200px;
+}
+
+
+/* .introduce li a {
+    box-sizing: border-box;
+} */
+
+
+/* h2::before {
     content: "荒牧 江莉奈\A";
     white-space: pre;
     font-size: 20px;
@@ -40,7 +167,6 @@ h2::before {
     text-align: center;
 }
 .hobby {
-  /* flex-wrap: wrap; */
   list-style: none;
   padding: 0;
   justify-content: center;
@@ -50,10 +176,6 @@ h2::before {
 .hobby .split {
     width: 50%;
 }
-
-/* .live li:nth-child(2n) {
-    margin-left: 100px;
-} */
 
 .detail {
     width: 1000px;
@@ -65,15 +187,10 @@ h2::before {
     display: flex;
 }
 
-/* #work .flex {
-    display: flex;
-} */
-
 #work dl {
     display: flex;
     width: 1000px;
-    /* margin: 0 auto; */
-    /* justify-content: space-between; */
+
 }
 
 #work dt {
@@ -109,4 +226,4 @@ h2::before {
 
 .background dd {
     width: 70%;
-}
+} */

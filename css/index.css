@@ -1,12 +1,26 @@
 @charset "utf-8";
+    
+li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  /* text-decoration: none; */
+}
+    
+/* Change the link color to #111 (black) on hover */
+ li a:hover {
+  background-color: pink;
+ }
+
 
 .main_visual p::after {
   content: "ポートフォリオ";
 }
 
+
 #profile, #work, #news {
   margin-top: 50px;
-  border: solid 1px orange;
+  border: solid 10px pink;
   position: relative;
   padding: 40px;
 }
@@ -20,6 +34,7 @@ h2 {
 #profile h2, #work h2, #news h2 {
   top: -30px;
   left: 20px;
+  padding: 0 20px;
 }
 
 #profile img {
@@ -28,14 +43,15 @@ h2 {
   border-radius: 50%;
 }
 
-
 .introduce {
+  margin-top: 100px;
   margin-left: 70px;
   width: 500px;
 }
 
 .introduce dl {
   width: 200px;
+  margin-bottom: 30px;
 }
 
 .introduce dt {
@@ -46,6 +62,11 @@ h2 {
 .introduce dd {
   padding-left: 75px;
 }
+
+/* Change the link color to #111 (black) on hover */
+.introduce p a:hover {
+  background-color: pink;
+ }
 
 #work figcaption {
   text-align: center;
@@ -59,6 +80,21 @@ h2 {
   text-align: center;
 }
 
-#news {
-  
+/* Change the link color to #111 (black) on hover */
+#work p a:hover {
+  background-color: pink;
+ }
+
+#news dl{
+  width: 800px;
+  margin: 0 auto;
+}
+
+#news dt{
+  width: 30%;
+  float: left;
+}
+
+#news dd {
+  width: 70%;
 }

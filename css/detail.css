@@ -1,6 +1,73 @@
 @charset "utf-8";
 
+header {
+  background-color: white;
+}
+
+header li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  /* text-decoration: none; */
+}
+    
+/* Change the link color to #111 (black) on hover */
+header li a:hover {
+  background-color: pink;
+ }
+
+ .main_visual p::after {
+  content: "制作実績";
+}
+
+html {
+  background-color: pink;
+}
+
+main {
+  background-color: white;
+}
+
+
+.sentence {
+  width: 800px;
+  margin: 30px auto;
+}
+
+.item h3 {
+  /* text-align: center; */
+  margin-left: 10px;
+  width: 930px;
+  border-left: 10px solid gray;
+  border-bottom: 2px solid gray;
+  padding-left: 20px;
+  font-size: 30px;
+}
+
 .explane {
+  margin: 30px;
+}
+
+
+#image1 {
+  width: 100%;
+  height: 100%;
+
+  transition: all 500ms 0s ease;
+}
+.on {
+  transform: scale(1.6, 1.6) translate(0px, 0px);
+}
+.off {
+  transform: scale(1.0, 1.0) translate(0px, 0px);
+}
+
+footer {
+  background-color: white;
+}
+
+
+/* .explane {
   text-align: center;
 }
 
@@ -51,4 +118,4 @@ footer {
 
 .er p {
   text-align: center;
-}
+} */
