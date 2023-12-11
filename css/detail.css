@@ -33,6 +33,8 @@ h2 {
   font-size: 30px;
   display: block;
   text-align: center;
+  padding-top: 50px;
+  margin-top: 30px;
 }
 
 h2::after {
@@ -40,10 +42,13 @@ h2::after {
   font-size: 20px;
   display: block;
   text-align: center;
+  padding-top: 10px;
 }
 
 .slide p {
   text-align: center;
+  padding-top: 30px;
+  font-size: 20px;
 }
 
 
@@ -51,6 +56,11 @@ h2::after {
 .slide a:hover {
   background-color: pink;
  }
+
+.item {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
 
 .item ul,ol {
   margin: 30px;

@@ -44,8 +44,8 @@ h2 {
 }
 
 .introduce {
-  margin-top: 100px;
-  margin-left: 70px;
+  margin-top: 80px;
+  margin-left: 40px;
   width: 500px;
 }
 
@@ -63,6 +63,10 @@ h2 {
   padding-left: 75px;
 }
 
+.introduce a {
+  font-size: 20px;
+}
+
 /* Change the link color to #111 (black) on hover */
 .introduce p a:hover {
   background-color: pink;
@@ -70,6 +74,10 @@ h2 {
 
 #work figcaption {
   text-align: center;
+}
+
+.work_image{
+  justify-content: center;
 }
 
 #slide2, #slide3 {

@@ -8,9 +8,9 @@ li a {
   }
       
   /* Change the link color to #111 (black) on hover */
-   li a:hover {
-    background-color: pink;
-   }
+li a:hover {
+background-color: pink;
+}
 
 h2::before {
     content: "荒牧 江莉奈\A";
@@ -35,7 +35,8 @@ h2 {
 
 #profile dl{
     width: 500px;
-    margin-top: 80px;
+    margin-top: 50px;
+    margin-left: 60px;
 }
 
 .introduce dt {
@@ -59,9 +60,13 @@ h2 {
     width: 100%;
 }
 
+#profile  {
+    border: solid 10px pink;
+    position: relative;
+    padding: 40px;
+}
 
-
-#profile, #qualification, #work, #background {
+#qualification, #work, #background {
     margin-top: 50px;
     border: solid 10px pink;
     position: relative;
@@ -89,36 +94,39 @@ h3 {
 }
 
 #work dl{
-    width: 100%;
+    width: 700px;
     box-sizing: border-box;
     flex-wrap: wrap;
+    margin-left: 180px;
 }
 
 #work dt{
-    width: 50%;
+    width: 40%;
     float: left;
-    
 }
 
 #work dd{
-    width: 50%;
+    width: 60%;
 }
 
 #background dl{
-    width: 100%;
+    width: 600px;
+    /* width: 100%; */
     box-sizing: border-box;
     flex-wrap: wrap;
-    margin: 0 auto;
+    margin-left: 230px;
 }
 
 #background dt {
-    margin-left: 200px;
-    width: 100px;
+    /* margin-left: 200px; */
+    width: 30%;
+    /* width: 100px; */
 }
 
 #background dd {
-    width: 300px;
-    margin-right: 200px;
+    width: 70%;
+    /* width: 300px; */
+    /* margin-right: 200px; */
 }
 
 
