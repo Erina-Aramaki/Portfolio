@@ -78,10 +78,6 @@ h2::after {
   /* margin-bottom: 10px; */
 }
 
-figcaption ul {
-  margin-left: 30px;
-}
-
 figcaption > p {
   margin-top: 10px;
 }
@@ -101,5 +97,10 @@ figcaption > p {
 
 footer {
   background-color: white;
+}
+
+#Factory {
+  width: 880px;
+  text-align: center;
 }
 
