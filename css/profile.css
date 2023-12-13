@@ -1,17 +1,5 @@
 @charset "utf-8";
 
-li a {
-    display: block;
-    text-align: center;
-    padding: 14px 16px;
-    /* text-decoration: none; */
-  }
-      
-  /* Change the link color to #111 (black) on hover */
-li a:hover {
-background-color: pink;
-}
-
 h2::before {
     content: "荒牧 江莉奈\A";
     white-space: pre;
@@ -121,7 +109,7 @@ h3 {
 
 #work p {
     width: 800px;
-    text-align: center;
+    margin-left: 180px;
     margin-top: 20px;
 }
 
