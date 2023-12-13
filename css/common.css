@@ -25,9 +25,37 @@ a, textarea, input, select, button {
   outline: none;
 }
 
-a {
+header a {
   text-decoration: none;
   color: #666;
+}
+
+li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  /* text-decoration: none; */
+}
+    
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: pink;
+ }
+
+
+
+header {
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  /* right: 0; */
+  width: 100%;
+  background-color: rgb(248, 208, 215);
+}
+
+.inner a {
+  color: rgb(1, 116, 247);
 }
 
 .main_visual {
@@ -40,6 +68,11 @@ a {
   background-size: cover;
   background-repeat: no-repeat;
   background-position-y: 23%;
+  margin-top: 50px;
+  opacity: 0.9;
+
+  color: #fff;
+  text-shadow: 1px 2px 5px #333;
 }
 
 
