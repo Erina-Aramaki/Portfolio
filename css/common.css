@@ -42,8 +42,6 @@ li a:hover {
   background-color: pink;
  }
 
-
-
 header {
   position: fixed;
   z-index: 999;
@@ -75,16 +73,11 @@ header {
   text-shadow: 1px 2px 5px #333;
 }
 
-
 .main_visual p::after {
   display: block;
   font-size: 20px;
   margin-top: -260px;
 }
-
-
-
-
 
 footer {
   text-align: center;
@@ -92,61 +85,21 @@ footer {
 }
 
 
-
-/* body {
-  background-color: antiquewhite;
-}
-.container {
-  background-color: blueviolet;
-  width: 1080px;
-  margin: 0 auto;
-}
-
-section, h2 {
-  margin-bottom: 24px;
-}
-
-.flex {
-  display: flex;
-  justify-content: space-between;
-
-}
-
-.image img {
-  width: 400px;
-  height: auto;
-}
-
-.profile {
-  margin: auto auto;
-}
-
-.link {
-  text-align: center;
-}
-
-.center {
-  width: 500px;
-  margin: 0 auto;
+/* スマホ端末用CSS */
+@media screen and (max-width: 600px){
   
+  header {
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(248, 208, 215);
+  }
+
+  .inner {
+    margin: 0 auto;
+  }
+
+
 }
-
-.center h2 {
-  text-align: center;
-}
-
-.center dl {
-  display: flex;
-  justify-content: space-between;
-}
-
-h3 {
-  text-align: center;
-}
-
-
-
-footer {
-  text-align: center;
-  
-} */
