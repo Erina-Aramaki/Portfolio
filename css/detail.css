@@ -1,6 +1,6 @@
 @charset "utf-8";
 
- .main_visual p::after {
+.main_visual p::after {
   content: "制作実績";
 }
 
@@ -104,3 +104,110 @@ footer {
   text-align: center;
 }
 
+
+  /* スマホ端末用CSS */
+@media screen and (max-width: 600px) {
+  .main_visual p::after {
+    content: "制作実績";
+  }
+  
+  html {
+    background-color: pink;
+  }
+  
+  main {
+    background-color: white;
+    padding-bottom: 30px;
+  }
+  
+  h2 {
+    font-size: 30px;
+    display: block;
+    text-align: center;
+    padding-top: 50px;
+    margin-top: 30px;
+  }
+  
+  h2::after {
+    content: "今日なに食べる？診断システム";
+    font-size: 20px;
+    display: block;
+    text-align: center;
+    padding-top: 10px;
+  }
+  
+  .slide p {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 20px;
+  }
+  
+  
+  /* Change the link color to #111 (black) on hover */
+  .slide a:hover {
+    background-color: pink;
+   }
+  
+  .item {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
+  .list ul,ol {
+    margin: 30px;
+  }
+  
+  .item ul,ol {
+    list-style-type: square;
+  }
+  
+  
+  .sentence {
+    margin: 30px 40px;
+  }
+  
+  .item h3 {
+    /* text-align: center; */
+    margin-left: 10px;
+    width: 320px;
+    border-left: 10px solid gray;
+    border-bottom: 2px solid gray;
+    padding-left: 20px;
+    font-size: 30px;
+  }
+  
+  .explane {
+    margin: 30px;
+  }
+  
+  .item h4 {
+    margin-top: 30px;
+    /* margin-bottom: 10px; */
+  }
+  
+  figcaption > p {
+    margin-top: 10px;
+  }
+  
+  #image1 {
+    width: 100%;
+    height: 100%;
+  
+    transition: all 500ms 0s ease;
+  }
+  .on {
+    transform: scale(1.6, 1.6) translate(0px, 0px);
+  }
+  .off {
+    transform: scale(1.0, 1.0) translate(0px, 0px);
+  }
+  
+  footer {
+    background-color: white;
+  }
+  
+  #Factory {
+    width: 300px;
+    text-align: center;
+  }
+}

@@ -132,3 +132,144 @@ h3 {
     /* width: 300px; */
     /* margin-right: 200px; */
 }
+
+
+/* スマホ端末用CSS */
+@media screen and (max-width: 600px){
+    h2::before {
+        content: "荒牧 江莉奈\A";
+        white-space: pre;
+        font-size: 18px;
+    }
+
+    .main_visual p::after {
+        content: "自己紹介";
+    }
+    
+
+    h2 {
+        font-size: 30px;
+    }
+
+    #profile figure img {
+        width: 400px;
+        height: auto;
+        border-radius: 50%;
+    }
+
+    #profile dl{
+        width: 500px;
+        margin-top: 35px;
+        margin-left: 60px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .introduce dt {
+        width: 25%;
+        /* float: left; */
+    }
+
+    .introduce dd {
+        width: 75%;
+    }
+
+    .introduce ul.flex {
+        flex-wrap: wrap;
+    }
+
+    .introduce li {
+        width: 50%;
+    }
+
+    .hobby li:last-child {
+        width: 100%;
+    }
+
+    #profile  {
+        border: solid 10px pink;
+        /* position: relative; */
+        padding: 40px;
+    }
+
+    #qualification ul{
+        margin-left: 30px;
+        list-style-type: square;
+    }
+
+    #qualification, #work, #background {
+        margin-top: 50px;
+        border: solid 10px pink;
+        position: relative;
+        padding: 40px;
+    }
+
+    #qualification h3, #work h3, #background h3 {
+        top: -25px;
+        left: 20px;
+        padding: 0 20px;
+    }
+
+    h3 {
+        position: absolute;
+        background-color: white;
+        font-size: 30px;
+    }
+
+    /* .it_group {
+        width: 300px;
+    } */
+
+    /* .other_group {
+        width: 300px;
+    } */
+
+    /* #work {
+        width: 700px;
+    } */
+    #work dl{
+        width: 300px;
+        /* box-sizing: border-box; */
+        flex-wrap: wrap;
+        /* margin-left: 180px; */
+    }
+
+    #work dt{
+        width: 100%;
+        /* text-align: center; */
+        /* float: left; */
+    }
+
+    #work dd{
+        /* width: 60%; */
+        margin-left: 16px;
+        /* margin: 0 auto; */
+    }
+
+    #work p {
+        width: 300px;
+        /* margin-left: 180px; */
+        margin-top: 20px;
+    }
+
+    #background dl{
+        width: 400px;
+        /* width: 100%; */
+        box-sizing: border-box;
+        flex-wrap: wrap;
+        /* margin-left: 230px; */
+    }
+
+    #background dt {
+        /* margin-left: 200px; */
+        width: 100%;
+        /* width: 100px; */
+    }
+
+    #background dd {
+        width: 100%;
+        margin-left: 16px;
+        /* width: 300px; */
+        /* margin-right: 200px; */
+    }
+}
