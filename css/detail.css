@@ -51,10 +51,6 @@ h2::after {
   margin-left: 10px;
 }
 
-.value li {
-  margin-left: 20px;
-}
-
 .sentence {
   margin: 30px 40px;
 }
@@ -69,9 +65,11 @@ h2::after {
   font-size: 30px;
 }
 
-.explane {
-  margin: 30px;
+.explane ul{
+  margin-top: 30px;
+  margin-left: 60px;
 }
+
 
 .item h4 {
   margin-top: 30px;
@@ -108,12 +106,19 @@ footer {
   font-weight: bold;
 }
 
-.list p {
+.list p{
   margin-top: 20px;
+  margin-left:  30px;
+}
+
+.list ul {
+  margin-left: 70px;
 }
 
 .white  ul:nth-child(2){
   list-style-type: circle;
+  margin-top: 0px;
+  margin-left: 30px;
 }
 
 
@@ -165,10 +170,6 @@ footer {
     margin-bottom: 50px;
   }
   
-  .list ul,ol {
-    margin: 30px;
-  }
-  
   .item ul,ol {
     list-style-type: square;
   }
@@ -188,8 +189,9 @@ footer {
     font-size: 30px;
   }
   
-  .explane {
-    margin: 30px;
+  .explane ul{
+    margin-top: 30px;
+    margin-left: 60px;
   }
   
   .item h4 {
