@@ -121,6 +121,12 @@ footer {
   margin-left: 30px;
 }
 
+.border {
+  width: 980px;
+  border: dashed gray 1px;
+  margin: 80px auto;
+}
+
 
   /* スマホ端末用CSS */
 @media screen and (max-width: 600px) {
