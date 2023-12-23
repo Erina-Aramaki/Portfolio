@@ -165,9 +165,11 @@
           <p>Factoryパターンを使用することでクラス同士の依存度を低くし、システム全体の柔軟性とメンテナンス性を向上させた<br>
           また、ファクトリクラスを用いてオブジェクト生成のロジックを集約させ、他の部分で再利用できるようにした<br>
           上記により、生成ロジックを繰り返し記述する手間を省くことができた</p>
-          <p id="Factory">
-            <img src="image/ConceptualDiagram.png" alt="Factoryパターン概念図" >
-          </p>
+              
+          <figure id="Factory">
+            <figcaption><small>画像をクリックすると拡大し、再度画像をクリックすると縮小します</small></figcaption>
+            <img src="image/ConceptualDiagram.png" alt="Factoryパターン概念図" id="factoryJs" onclick="func2()" >
+          </figure>
         </ul>
       </div>
     </section>
@@ -185,12 +187,12 @@
           試行錯誤を繰り返している中でSQLの面白さに気づくことができたため、今後も積極的にSQLを活用しながら学習を進めたいと思う。 </p>
 
           <h4>特に苦戦したこと</h4>
-          <p>診断機能ページのfood情報の取得<br>（テーブル結合したものに「ROW_NUMBER()」で連番を付与を付与し、ランダム関数の結果と一致する番号のカラムの取得方法）</p>   
+          <p>診断機能ページのfood情報の取得（テーブル結合したものに「ROW_NUMBER()」で連番を付与を付与し、ランダム関数の結果と一致する番号のカラムの取得方法）</p>   
       
           <figure>
             <figcaption>
-              <p><small>画像をクリックすると拡大し、再度画像をクリックすると縮小します</small></p>               
               <p>例）「WesternDaoImpl.java」の select(String strId) メソッド</p>
+              <p><small>画像をクリックすると拡大し、再度画像をクリックすると縮小します</small></p>               
             </figcaption>
             <img src="image/WesternDaoImpl.PNG" alt="「WesternDaoImpl.java」の select(String strId) メソッド" id="image1" onclick="func1()" >
             <!-- onmouseover="func1()" -->
