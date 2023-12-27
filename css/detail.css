@@ -29,8 +29,17 @@ h2::after {
   padding-top: 10px;
 }
 
-.slide p {
+.slide {
+  margin-top: 30px;
   text-align: center;
+}
+
+.slide img {
+  width: 900px;
+  height: auto;
+}
+
+.slide p {
   padding-top: 30px;
   font-size: 20px;
 }

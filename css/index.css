@@ -93,6 +93,11 @@ h2 {
   background-color: pink;
  }
 
+#slide1 img{
+  width: 900px;
+  height: auto;
+}
+
 #news dl{
   width: 800px;
   margin: 0 auto;
