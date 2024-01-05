@@ -11,7 +11,7 @@ img {
   vertical-align: bottom;
 }
 
-.flex {
+.flex, .flex_media {
   display: flex;
   justify-content: space-between;
 }
