@@ -12,9 +12,14 @@
 https://erina-aramaki.github.io/portfolio/
 
 ## 使用技術
-- HTML
-- CSS
-- JavaScript
+
+- フロントエンド
+    - HTML
+    - CSS
+    - JavaScript
+- コード管理
+    - Fork
+    - GitHub
 
 ## 今後実装予定
 - レスポンシブ対応
