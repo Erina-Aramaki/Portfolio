@@ -107,11 +107,11 @@ h3 {
     width: 60%;
 }
 
-#work p {
+/* #work p {
     width: 500px;
     margin-left: 180px;
     margin-top: 20px;
-}
+} */
 
 #background dl{
     width: 600px;
@@ -160,7 +160,7 @@ h3 {
     #profile dl{
         width: 500px;
         margin-top: 35px;
-        margin-left: 60px;
+        margin-left: 0px;
         display: flex;
         flex-wrap: wrap;
     }
@@ -189,7 +189,15 @@ h3 {
     #profile  {
         border: solid 10px pink;
         /* position: relative; */
-        padding: 40px;
+        padding: 30px;
+    }
+    
+    .profile_kaigyou {
+        width: 130px;
+    }
+
+    .bk_kaigyou {
+        width: 250px;
     }
 
     #qualification ul{
@@ -201,7 +209,7 @@ h3 {
         margin-top: 50px;
         border: solid 10px pink;
         position: relative;
-        padding: 40px;
+        padding: 30px;
     }
 
     #qualification h3, #work h3, #background h3 {
@@ -216,60 +224,48 @@ h3 {
         font-size: 30px;
     }
 
-    /* .it_group {
-        width: 300px;
-    } */
+    .it_group {
+        width: 100%;
+    }
 
-    /* .other_group {
-        width: 300px;
-    } */
+    .other_group {
+        width: 100%;
+    }
 
     /* #work {
         width: 700px;
     } */
     #work dl{
         width: 300px;
-        /* box-sizing: border-box; */
+        box-sizing: border-box;
         flex-wrap: wrap;
-        /* margin-left: 180px; */
+        margin-left: 0px;
     }
 
     #work dt{
-        width: 100%;
-        /* text-align: center; */
-        /* float: left; */
+        width: 200px;
+        margin: 0 auto;
     }
 
     #work dd{
-        /* width: 60%; */
-        margin-left: 16px;
-        /* margin: 0 auto; */
-    }
-
-    #work p {
-        width: 300px;
-        /* margin-left: 180px; */
-        margin-top: 20px;
+        width: 200px;
+        margin: 0 auto;
+        text-align: center;
     }
 
     #background dl{
-        width: 400px;
-        /* width: 100%; */
+        width: 300px;
         box-sizing: border-box;
         flex-wrap: wrap;
-        /* margin-left: 230px; */
+        margin-left: 0px;
     }
 
     #background dt {
-        /* margin-left: 200px; */
         width: 100%;
-        /* width: 100px; */
     }
 
     #background dd {
         width: 100%;
-        margin-left: 16px;
-        /* width: 300px; */
-        /* margin-right: 200px; */
+        margin-left: 12px;
     }
 }

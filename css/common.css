@@ -98,10 +98,10 @@ footer {
     vertical-align: bottom;
   }
 
-  /* .flex {
-    display: flex;
-    justify-content: space-between;
-  } */
+  /* 解除忘れない！！！！ */
+  .flex_media{
+    display: block;
+  }
 
   .inner {
     width: 380px;

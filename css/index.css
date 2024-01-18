@@ -128,10 +128,7 @@ h2 {
     padding: 40px;
   }
 
-  /* 解除忘れない！！！！ */
-  #profile .flex_media{
-    display: block;
-  }
+  
 
   h2 {
     position: absolute;
