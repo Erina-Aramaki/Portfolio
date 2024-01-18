@@ -121,7 +121,17 @@ h2 {
     content: "ポートフォリオ";
   }
 
-  #profile, #work, #news {
+  #profile {
+    margin-top: 50px;
+    border: solid 10px pink;
+    position: relative;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+  }
+  }
+
+  #work, #news {
     margin-top: 50px;
     border: solid 10px pink;
     position: relative;
@@ -146,6 +156,7 @@ h2 {
     width: 300px;
     height: auto;
     border-radius: 50%;
+    padding-left: 10px;
   }
   
   .introduce {
@@ -172,14 +183,15 @@ h2 {
   }
 
   .introduce p {
-    width: 300px;
+    width: 320px;
+    font-size: 14px;
   }
   
   .introduce a {
     width: 200px;
     font-size: 20px;
     display: block;
-    margin-top: 30px;
+    margin:30px auto;
   }
 
   

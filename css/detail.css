@@ -145,14 +145,14 @@ footer {
   margin-bottom: 80px;
 }
 
-.spbr {
+.media_br {
 display: none;
 }
 
   /* スマホ端末用CSS */
 @media screen and (max-width: 600px) {
 
-  .spbr {
+  .media_br {
     display: inline;
     }
   .main_visual p::after {
