@@ -120,15 +120,19 @@ h2 {
   .main_visual p::after {
     content: "ポートフォリオ";
   }
-  
-  
+
   #profile, #work, #news {
     margin-top: 50px;
     border: solid 10px pink;
     position: relative;
     padding: 40px;
   }
-  
+
+  /* 解除忘れない！！！！ */
+  #profile .flex_media{
+    display: block;
+  }
+
   h2 {
     position: absolute;
     background-color: white;
@@ -149,7 +153,7 @@ h2 {
   
   .introduce {
     margin-top: 70px;
-    margin-left: 40px;
+    margin-left: 0px;
     width: 470px;
   }
   
@@ -169,6 +173,10 @@ h2 {
   .introduce dd {
     width: 75%;
   }
+
+  .introduce p {
+    width: 300px;
+  }
   
   .introduce a {
     width: 200px;
@@ -176,10 +184,7 @@ h2 {
     display: block;
     margin-top: 30px;
   }
-  
-  /* .introduce p {
-    margin-top: 100px;
-  } */
+
   
   /* Change the link color to #111 (black) on hover */
   .introduce p a:hover {
