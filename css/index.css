@@ -121,24 +121,12 @@ h2 {
     content: "ポートフォリオ";
   }
 
-  #profile {
-    margin-top: 50px;
-    border: solid 10px pink;
-    position: relative;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    padding-left: 20px;
-  }
-  }
-
-  #work, #news {
+  #profile, #work, #news {
     margin-top: 50px;
     border: solid 10px pink;
     position: relative;
     padding: 40px;
   }
-
-  
 
   h2 {
     position: absolute;
@@ -153,10 +141,9 @@ h2 {
   }
   
   #profile img {
-    width: 300px;
+    width: 100%;
     height: auto;
     border-radius: 50%;
-    padding-left: 10px;
   }
   
   .introduce {
@@ -166,7 +153,7 @@ h2 {
   }
   
   .introduce dl {
-    width: 400px;
+    width: 500px;
     margin-bottom: 30px;
     display: flex;
     flex-wrap: wrap;
@@ -205,7 +192,7 @@ h2 {
   }
 
   #work img {
-    width: 320px;
+    width: 100%;
   }
   
   .work_image{
@@ -229,7 +216,7 @@ h2 {
    }
   
   #news dl{
-    width: 400px;
+    width: 800px;
     margin: 0 auto;
   }
   
@@ -244,12 +231,7 @@ h2 {
 
 
 
-/* @media screen and (max-width: 600px){
-  #profile img {
-  width: 400px;
-  height: auto;
-  border-radius: 50%;
-}
 
 
-} */
+
+} 
