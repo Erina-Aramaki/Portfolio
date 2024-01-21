@@ -162,13 +162,18 @@ h3 {
         flex-wrap: wrap;
     }
 
+    #profile dd img {
+        width:65%;
+        height: auto;
+    }
+
     .introduce dt {
-        width: 25%;
+        width: 30%;
         /* float: left; */
     }
 
     .introduce dd {
-        width: 75%;
+        width: 70%;
     }
 
     .introduce ul.flex {
@@ -180,13 +185,13 @@ h3 {
     }
 
     .hobby li:last-child {
-        width: 100%;
+        width: 70%;
     }
 
     #profile {
         border: solid 10px pink;
         /* position: relative; */
-        padding: 5%;
+        padding: 0%;
     }
     
     /* .profile_kaigyou {
@@ -194,7 +199,7 @@ h3 {
     } */
 
     .bk_kaigyou {
-        width: 85%;
+        width: 50%;
     }
 
     #qualification ul{
@@ -202,11 +207,19 @@ h3 {
         list-style-type: square;
     }
 
-    #qualification, #work, #background {
+    #qualification, #work {
         margin-top: 50px;
         border: solid 10px pink;
         position: relative;
-        padding: 40px;
+        padding: 10%;
+    }
+
+    #background {
+        margin-top: 50px;
+        border: solid 10px pink;
+        position: relative;
+        padding: 10% 5%;
+        font-size: 14px;
     }
 
     #qualification h3, #work h3, #background h3 {
@@ -256,10 +269,10 @@ h3 {
     }
 
     #background dt {
-        width: 100%;
+        width: 110%;
     }
 
     #background dd {
-        width: 100%;
+        width: 220%;
     }
 }
