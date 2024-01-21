@@ -215,6 +215,11 @@ h3 {
     #qualification ul{
         margin-left: 30px;
         list-style-type: square;
+        width: 100%;
+    }
+
+    #qualification ul {
+        width: 80%;
     }
 
     #qualification {
@@ -236,7 +241,6 @@ h3 {
         border: solid 10px pink;
         position: relative;
         padding: 10% 5%;
-        font-size: 14px;
     }
 
     #qualification h3, #work h3, #background h3 {
@@ -251,12 +255,22 @@ h3 {
         font-size: 30px;
     }
 
+    #qualification ul {
+        width: 90%;
+    }
+
     .it_group {
-        width: 100%;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .it_group h4 {
+        width: 80%;
     }
 
     .other_group {
-        width: 100%;
+        width: 90%;
+        margin: 0 auto;
     }
 
     #work dl{
@@ -292,6 +306,10 @@ h3 {
     #background dd {
         width: 220%;
         margin-left: 5%;
+    }
+
+    li, dt, dd {
+        font-size: 14px;
     }
 
     /* .media_br {
