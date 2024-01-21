@@ -38,7 +38,7 @@ h2 {
     width: 75%;
 }
 
-.introduce ul.flex {
+.introduce ul.flex_media {
     flex-wrap: wrap;
 }
 
@@ -111,21 +111,21 @@ h3 {
 } */
 
 #background dl{
-    width: 600px;
+    width: 500px;
     /* width: 100%; */
     box-sizing: border-box;
     flex-wrap: wrap;
-    margin-left: 230px;
+    margin-left: 180px;
 }
 
 #background dt {
     /* margin-left: 200px; */
-    width: 30%;
+    width: 40%;
     /* width: 100px; */
 }
 
 #background dd {
-    width: 70%;
+    width: 60%;
     /* width: 300px; */
     /* margin-right: 200px; */
 }
@@ -182,6 +182,10 @@ h3 {
         /* float: left; */
     }
 
+    .introduce li:last-child, dd {
+        margin-bottom: 2%;
+    }
+
     .introduce dd {
         width: 65%;
     }
@@ -191,26 +195,26 @@ h3 {
     }
 
     .introduce li {
-        width: 100%;
+        width: 50%;
     }
 
-    .hobby li:last-child {
+    /* .hobby li:last-child {
         width: 100%;
-    }
+    } */
 
     #profile {
         border: solid 10px pink;
         /* position: relative; */
-        padding: 10% 0%;
+        padding: 10% 0% 5% 0%;
     }
     
     /* .profile_kaigyou {
         width: 130px;
     } */
 
-    .bk_kaigyou {
+    /* .bk_kaigyou {
         width: 50%;
-    }
+    } */
 
     #qualification ul{
         margin-left: 30px;
@@ -304,7 +308,7 @@ h3 {
     }
 
     #background dd {
-        width: 220%;
+        width: 110%;
         margin-left: 5%;
     }
 
