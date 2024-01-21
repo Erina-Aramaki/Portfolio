@@ -125,7 +125,7 @@ h2 {
     margin-top: 50px;
     border: solid 10px pink;
     position: relative;
-    padding: 2%;
+    padding: 10% 2% 0% 2%;
   }
 
   #work {
@@ -136,10 +136,10 @@ h2 {
   }
 
   #news {
-    margin-top: 50px;
     border: solid 10px pink;
     position: relative;
-    padding: 10% 8%;
+    padding: 10% 3%;
+    margin: 50px auto 0 auto;
   }
 
   h2 {
@@ -161,7 +161,7 @@ h2 {
   }
   
   .introduce {
-    margin-top: 70px;
+    margin-top: 10%;
     margin-left: 0px;
     width: 100%;
   }
@@ -230,17 +230,17 @@ h2 {
    }
   
   #news dl{
-    width: 800px;
+    width: 93%;
     margin: 0 auto;
   }
   
   #news dt{
-    width: 35%;
+    width: 100%;
     /* float: left; */
   }
   
   #news dd {
-    width: 35%;
+    width: 100%;
   }
 
 

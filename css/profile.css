@@ -130,6 +130,10 @@ h3 {
     /* margin-right: 200px; */
 }
 
+/* .media_br {
+    display: none;
+} */
+
 
 /* スマホ端末用CSS */
 @media screen and (max-width: 600px){
@@ -149,13 +153,18 @@ h3 {
     }
 
     #profile figure img {
-        width: 100%;
+        width: 90%;
         height: auto;
         border-radius: 50%;
+        
+    }
+
+    #profile figure {
+        text-align: center;
     }
 
     #profile dl{
-        width:120%;
+        width:100%;
         margin-top: 35px;
         margin-left: 8%;
         display: flex;
@@ -163,17 +172,18 @@ h3 {
     }
 
     #profile dd img {
-        width:65%;
+        width:90%;
         height: auto;
+        margin-left: -5%;
     }
 
     .introduce dt {
-        width: 30%;
+        width: 35%;
         /* float: left; */
     }
 
     .introduce dd {
-        width: 70%;
+        width: 65%;
     }
 
     .introduce ul.flex {
@@ -181,17 +191,17 @@ h3 {
     }
 
     .introduce li {
-        width: 50%;
+        width: 100%;
     }
 
     .hobby li:last-child {
-        width: 70%;
+        width: 100%;
     }
 
     #profile {
         border: solid 10px pink;
         /* position: relative; */
-        padding: 0%;
+        padding: 10% 0%;
     }
     
     /* .profile_kaigyou {
@@ -207,7 +217,14 @@ h3 {
         list-style-type: square;
     }
 
-    #qualification, #work {
+    #qualification {
+        margin-top: 50px;
+        border: solid 10px pink;
+        position: relative;
+        padding: 10% 3%;
+    }
+
+    #work {
         margin-top: 50px;
         border: solid 10px pink;
         position: relative;
@@ -274,5 +291,10 @@ h3 {
 
     #background dd {
         width: 220%;
+        margin-left: 5%;
     }
+
+    /* .media_br {
+        display: inline;
+    } */
 }
