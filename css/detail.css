@@ -218,7 +218,7 @@ display: none;
   .item h3 {
     /* text-align: center; */
     margin-left: 10px;
-    width: 320px;
+    width: 80%;
     border-left: 10px solid gray;
     border-bottom: 2px solid gray;
     padding-left: 20px;
