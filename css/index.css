@@ -155,9 +155,13 @@ h2 {
   }
   
   #profile img {
-    width: 100%;
+    width: 95%;
     height: auto;
     border-radius: 50%;
+  }
+
+  #profile figure {
+    text-align: center;
   }
   
   .introduce {
