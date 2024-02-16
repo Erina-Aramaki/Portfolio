@@ -1,0 +1,277 @@
+@charset "utf-8";
+
+.main_visual p::after {
+  content: "制作実績";
+}
+
+html {
+  background-color: pink;
+}
+
+main {
+  background-color: white;
+  padding-bottom: 30px;
+}
+
+h2 {
+  font-size: 30px;
+  display: block;
+  text-align: center;
+  padding-top: 50px;
+  margin-top: 30px;
+}
+
+h2::after {
+  content: "今日なに食べる？診断システム";
+  font-size: 20px;
+  display: block;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.slide {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.slide img {
+  width: 900px;
+  height: auto;
+}
+
+.slide p {
+  padding-top: 30px;
+  font-size: 20px;
+}
+
+
+/* Change the link color to #111 (black) on hover */
+.slide a:hover {
+  background-color: pink;
+ }
+
+.item {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.item ul {
+  list-style-type: square;
+  margin-left: 10px;
+}
+
+.sentence {
+  margin: 30px 40px;
+}
+
+.item h3 {
+  /* text-align: center; */
+  margin-left: 10px;
+  width: 930px;
+  border-left: 10px solid gray;
+  border-bottom: 2px solid gray;
+  padding-left: 20px;
+  font-size: 30px;
+}
+
+.explane ul{
+  margin-top: 30px;
+  margin-left: 60px;
+}
+
+
+.item h4 {
+  margin-top: 30px;
+  /* margin-bottom: 10px; */
+}
+
+figcaption > p {
+  margin-top: 10px;
+}
+
+#WesternDaoImpl {
+  width: 100%;
+  height: 100%;
+
+  transition: all 500ms 0s ease;
+}
+
+#factoryJs {
+  width: 50%;
+  height: 50%;
+  transition: all 500ms 0s ease;
+}
+
+.on {
+  transform: scale(1.6, 1.6) translate(0px, 0px);
+}
+.off {
+  transform: scale(1.0, 1.0) translate(0px, 0px);
+}
+
+footer {
+  background-color: white;
+}
+
+#factory {
+  width: 880px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.list p{
+  margin-top: 20px;
+  margin-left:  30px;
+}
+
+.list ul {
+  margin-left: 70px;
+}
+
+.white  ul:nth-child(2){
+  list-style-type: circle;
+  margin-top: 0px;
+  margin-left: 30px;
+}
+
+.border {
+  width: 980px;
+  border: dashed gray 1px;
+  margin: 50px auto;
+  margin-bottom: 80px;
+}
+
+  /* スマホ端末用CSS */
+@media screen and (max-width: 600px) {
+
+  .main_visual p::after {
+    content: "制作実績";
+  }
+  
+  html {
+    background-color: pink;
+  }
+  
+  main {
+    background-color: white;
+    padding-bottom: 0.5%;
+  }
+  
+  h2 {
+    font-size: 30px;
+    display: block;
+    text-align: center;
+    padding-top: 50px;
+    margin-top: 30px;
+  }
+  
+  h2::after {
+    content: "今日なに食べる？診断システム";
+    font-size: 20px;
+    display: block;
+    text-align: center;
+    padding-top: 10px;
+  }
+
+  .slide img {
+    width: 300px;
+    height: auto;
+  }
+  
+  .slide p {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 18px;
+  }
+  
+  
+  /* Change the link color to #111 (black) on hover */
+  .slide a:hover {
+    background-color: pink;
+   }
+  
+  .item {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
+  .item ul,ol {
+    list-style-type: square;
+  }
+  
+  
+  .sentence {
+    margin: 30px 40px;
+  }
+  
+  .item h3 {
+    /* text-align: center; */
+    margin-left: 10px;
+    width: 80%;
+    border-left: 10px solid gray;
+    border-bottom: 2px solid gray;
+    padding-left: 20px;
+    font-size: 22px;
+  }
+
+  .border {
+    width: 90%;
+    border: dashed gray 1px;
+    margin: 50px auto;
+    margin-bottom: 80px;
+  }
+  
+  .explane ul{
+    margin-top: 30px;
+    margin-left: 60px;
+    margin-right: 40px;
+  }
+  
+  .item h4 {
+    margin-top: 30px;
+    /* margin-bottom: 10px; */
+  }
+  
+  figcaption > p {
+    margin-top: 10px;
+  }
+  
+  #WesternDaoImpl {
+    width: 100%;
+    height: 100%;
+    transition: all 500ms 0s ease;
+  }
+  
+  #factoryJs {
+    width: 50%;
+    height: 50%;
+    transition: all 500ms 0s ease;
+  }
+
+  .on {
+    transform: scale(2.0, 2.0) translate(-8%, 0px);
+  }
+  .off {
+    transform: scale(1.0, 1.0) translate(0px, 0px);
+  }
+  
+  footer {
+    background-color: pink;
+  }
+  
+  #factory {
+    width: 300px;
+    text-align: center;
+  }
+
+
+
+  p, ul, li {
+    font-size: 16px;
+  }
+  
+}
