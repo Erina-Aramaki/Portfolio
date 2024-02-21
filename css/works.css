@@ -1,15 +1,48 @@
 @charset "utf-8";
 
-/* .video {
-    text-align: center;
-  }
-  
-  video {
-    width: 100%;
-  } */
+.main_visual p::after {
+  content: "制作実績";
+}
 
-  .explane {
-    text-align: center;
-  }
-  
+html {
+  background-color: pink;
+}
 
+main {
+  background-color: white;
+  padding-bottom: 30px;
+}
+  
+h2 {
+  font-size: 30px;
+  display: block;
+  text-align: center;
+  padding-top: 50px;
+  margin-top: 30px;
+}
+
+#whatDoYouEatToday h2::after {
+  content: "今日なに食べる？診断システム";
+  font-size: 20px;
+  display: block;
+  text-align: center;
+  padding-top: 10px;
+}
+
+#trecord h2::after {
+  content: "筋トレ記録システム";
+  font-size: 20px;
+  display: block;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.slide {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.slide img {
+  width: 900px;
+  height: auto;
+}

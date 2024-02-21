@@ -1,9 +1,7 @@
 @charset "utf-8";
 
-@charset "utf-8";
-
 .main_visual p::after {
-  content: "制作実績";
+  content: "トレコード";
 }
 
 html {
@@ -149,6 +147,10 @@ footer {
   border: dashed gray 1px;
   margin: 50px auto;
   margin-bottom: 80px;
+}
+
+.item figure {
+  text-align: center;
 }
 
   /* スマホ端末用CSS */

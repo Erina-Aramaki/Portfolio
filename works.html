@@ -5,83 +5,66 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>制作実績 | Erina Aramaki</title>
-     
-    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/common.css">
-    <link rel="stylesheet" href="css/works.css">
+  <link rel="stylesheet" href="css/works.css">
 </head>
 <body>
+  
+  <header>
+    <div class="flex">
+      <h1><a href="index.html">Erina's web site</a></h1>
+      <nav>
+        <ul class="flex">
+          <li><a href="index.html">Top</a></li>
+          <li><a href="profile.html">Profile</a></li>
+          <li><a href="works.html">Works</a></li>
+        </ul>
+      </nav>
+    </div> 
+  </header>
 
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="index.html">Erina's Portfolio</a>
-            <!-- collapse：折りたたみコンテンツ -->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-          
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <!-- mr-auto：右側に余白を設定し、ロゴやメニューを左寄せ -->
-                        <!-- mx-auto：水平方向に要素を中央に配置 -->
-              <ul class="navbar-nav mr-auto">
-                <!-- active：現在選択されていることを示す -->
-                <li class="nav-item active">
-                  <a class="nav-link" href="profile.html">Profile</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="works.html">Works</a>
-                </li>
-              </ul>
-            </div>
-          </nav>
-    </header>
+  <div class="main_visual">
+    <p>Works</p>
+  </div>
 
-    <main class="container">
-      <h1>制作実績</h1>
-      <p>2023年12月現在、webシステムの開発を行っております。</p>
-      
-      <section id="work1">
-          <h2>WhatDoYouEatToday? 今日何食べる？</h2>
+  <main class="inner">
+    <section id="whatDoYouEatToday">
+      <h2>What do you eat today?</h2>
 
-          <!-- autoplay：自動再生、 muted：Google Chromeの仕様、playsinline：iPhoneで自動再生、loop：繰り返し再生、poster：動画再生できない環境の際、動画の代わりに表示するサムネイル、controls：動画再生のインタフェースを表示（シークバー）-->
-          <div class="video">
-              <video src="sample.mp4" autoplay muted playsinline loop poster="firstframe.jpg" controls></video>
+      <div class="slide">
+        <figure>
+          <img src="image/WhatDoYouEatToday3.PNG" alt="WhatDoYouEatToday">
+        </figure>
+        <figcaption>今日なに食べる？診断 イメージ画像</figcaption>
 
-              <p><a href="https://github.com/Erina-Aramaki/WhatDoYouEatToday" target="_blank">公開しているコードはこちら</a></p>
-          </div>
-      </section>
-
-      <div class="explane">
-        <p>このwebシステムは今日あなたが食べたいものを診断し、提案します。</p>
-        <p>材料からレシピを検索してくれるサイトや、食べたいものからお店を検索してくれるサイトを利用している方も多いのではないでしょうか。</p>
-        <p>しかし、「食べるもの」を提案してくれるサイトはあまり見かけません。</p>
-        <p>「食事のレパートリーが不足していて食べたいものが思い浮かばない」「いつもとは違うものが食べたい！」</p>
-        <p>そんな気持ちになったことはありませんか？</p>
-        <p>このアプリは、ボタンを選択していくだけであなたの希望に沿ったメニューを提案してくれます。</p>
-        <p>「何を食べたいのか自分でも分からない・・・！」そう思ったときは診断機能を使ってみてください。</p>
+        <p><a href="trecord.html" target="_blank">詳細ページはこちら</a></p>
       </div>
-      <div class="link">
-        <a href="whatDoYouEatToday.html">詳細情報はこちら</a>
+    </section>
+
+    <section id="trecord">
+      <h2>トレコード</h2>
+
+      <div class="slide">
+        <figure>
+          <img src="image/trecord_TOP.PNG" alt="trecordイメージ画像">
+        </figure>
+        <figcaption>トレコード イメージ画像</figcaption>
+
+        <p><a href="trecord.html" target="_blank">詳細ページはこちら</a></p>
       </div>
+    </section>
 
-      
-        
-    </main>
+  </main>
 
 
-    <footer>
-        <p><small>Copyright &copy; 2023 Erina Aramaki rights reserved.</small></p>
-    </footer>
-    
-    
-    <!-- Bootstrap script-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
-    <script src="js/script.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <footer>
+    <p><small>Copyright &copy; 2023 Erina Aramaki rights reserved.</small></p>
+  </footer>
+  
+  
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="js/script.js"></script>
 
 </body>
 </html>
