@@ -57,6 +57,11 @@ header {
   background-color: rgb(248, 208, 215);
 }
 
+header img {
+  width: 100px;
+  height: auto;
+}
+
 .inner a {
   color: rgb(1, 116, 247);
 }
