@@ -4,6 +4,8 @@ const image3 = document.getElementById("image3");
 const image4 = document.getElementById("image4");
 const image5 = document.getElementById("image5");
 const image6 = document.getElementById("image6");
+const image7 = document.getElementById("image7");
+const image8 = document.getElementById("image8");
 const WesternDao = document.getElementById("WesternDaoImpl");
 const factory = document.getElementById("factoryJs");
 let stat = false;
@@ -55,22 +57,44 @@ function func4() {
 
 function func5() {
   if (stat) {
-    image5.classList.add('off');
-    image5.classList.remove('on');
+    image5.classList.add('off_wireframe');
+    image5.classList.remove('on_wireframe');
   } else {
-    image5.classList.add('on');
-    image5.classList.remove('off');
+    image5.classList.add('on_wireframe');
+    image5.classList.remove('off_wireframe');
   }
   stat = !stat;
 }
 
 function func6() {
   if (stat) {
-    image6.classList.add('off');
-    image6.classList.remove('on');
+    image6.classList.add('off_wireframe');
+    image6.classList.remove('on_wireframe');
   } else {
-    image6.classList.add('on');
-    image6.classList.remove('off');
+    image6.classList.add('on_wireframe');
+    image6.classList.remove('off_wireframe');
+  }
+  stat = !stat;
+}
+
+function func7() {
+  if (stat) {
+    image7.classList.add('off_cord');
+    image7.classList.remove('on_cord');
+  } else {
+    image7.classList.add('on_cord');
+    image7.classList.remove('off_cord');
+  }
+  stat = !stat;
+}
+
+function func8() {
+  if (stat) {
+    image8.classList.add('off_cord');
+    image8.classList.remove('on_cord');
+  } else {
+    image8.classList.add('on_cord');
+    image8.classList.remove('off_cord');
   }
   stat = !stat;
 }
