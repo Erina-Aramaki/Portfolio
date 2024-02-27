@@ -86,9 +86,9 @@ h2::after {
   /* margin-bottom: 10px; */
 }
 
-/* figcaption > p {
+figcaption > p {
   margin-top: 10px;
-} */
+}
 
 #image1, #image2, #image3, #image4, #image5 {
   width: 50%;
@@ -188,8 +188,6 @@ footer {
 .item figure {
   text-align: center;
 }
-
-.item 
 
   /* スマホ端末用CSS */
 @media screen and (max-width: 600px) {
