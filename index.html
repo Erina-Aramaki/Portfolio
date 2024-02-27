@@ -9,6 +9,11 @@
      <!-- <link rel="stylesheet" href="css/reset.css"> -->
      <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/slider.css">
+
+    <!-- slider -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/6-1-6/css/6-1-6.css"
 </head>
 <body>
 
@@ -44,7 +49,7 @@
               <dd>東京都</dd>
             </dl>
             <p>当ページをご覧いただきありがとうございます。<br>都内でエンジニアをしている荒牧と申します。</p>
-            <p>頑張った1日の後にフルーツを食べることが楽しみの一つです。<br>また、毎年一資格を取得することを目標に勉学に励むことも趣味としております。</p>
+            <p>頑張った1日の後にフルーツを食べることが楽しみの一つです。また、毎年一資格を取得することを目標に勉学に励むことも趣味としております。</p>
             <p><a href="profile.html">プロフィールはこちら</a></p>
           </div>
         </div>
@@ -53,7 +58,7 @@
 
       <div id="work">
         <h2>Work</h2>
-        <div class=" work_image flex">
+        <!-- <div class=" work_image flex">
           <div id="slide1">
             <figure><img src="image/WhatDoYouEatToday2.PNG" alt="WhatDoYouEatToday"></figure>
             <figcaption>今日なに食べる？<br class="media_br">診断 イメージ画像</figcaption>
@@ -68,31 +73,22 @@
             <figure><img src="image/green.png" alt="Works画像3"></figure>
             <figcaption>テストテストテスト</figcaption>
           </div>
-        </div>
+        </div> -->
 
-        <!-- <p><a href="works.html">制作実績はこちら</a></p> -->
-        <p><a href="whatDoYouEatToday.html">今日何食べる？診断システム</a></p>
-        <p><a href="trecord.html">トレコード</a></p>
-
-
-        <!-- <div class="slide-container">
-          <div class="slide-wrapper">
-             <img class="slide" src="image/trecord1.PNG" alt="京都">
-             <img class="slide" src="image/trecord2.PNG" alt="横浜">
-             <img class="slide" src="image/trecord3.PNG" alt="良い街">
-          </div>
-          <div class="slide-wrapper">
-             <img class="slide" src="image/trecord1.PNG" alt="京都">
-             <img class="slide" src="image/trecord2.PNG" alt="横浜">
-             <img class="slide" src="image/trecord3.PNG" alt="良い街">
-          </div>
-          <div class="slide-wrapper">
-             <img class="slide" src="image/trecord1.PNG" alt="京都">
-             <img class="slide" src="image/trecord2.PNG" alt="横浜">
-             <img class="slide" src="image/trecord3.PNG" alt="良い街">
-          </div>
-       </div> -->
-
+        
+        <!-- 参考サイトhttps://coco-factory.jp/ugokuweb/move01/6-1-6/ -->
+        <ul class="slider">
+          <li><a href="whatDoYouEatToday.html"><img src="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/6-1-6/img/img_01.jpg" alt=""></a></li>
+          <li><a href="whatDoYouEatToday.html"><img src="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/6-1-6/img/img_02.jpg" alt=""></a></li>
+          <li><a href="whatDoYouEatToday.html"><img src="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/6-1-6/img/img_03.jpg" alt=""></a></li>
+          
+          <li><a href="trecord.html"><img src="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/6-1-6/img/img_04.jpg" alt=""></a></li>
+          <li><a href="trecord.html"><img src="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/6-1-6/img/img_05.jpg" alt=""></a></li>
+          <li><a href="trecord.html"><img src="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/6-1-6/img/img_06.jpg" alt=""></a></li>
+          <!--/slider--></ul>
+          
+        <p><small>画像をクリックすると紹介ページに遷移します</small></p>
+        <p><a href="works.html">制作物一覧はこちら</a></p>
       </div>
 
       
@@ -102,8 +98,12 @@
         <dl>
           <dt>2023年12月11日</dt>
           <dd>ポートフォリオを開設しました。</dd>
-          <dt>2024年1月22日</dt>
+          <dt>2023年12月25日</dt>
+          <dd>制作物「What do you eat today?」を公開しました。</dd>
+          <dt>2024年 1月22日</dt>
           <dd>レスポンシブ対応にしました。</dd>
+          <dt>2024年 2月28日</dt>
+          <dd>制作物「トレコード」を公開しました。</dd>
         </dl>        
       </section>    
     </main>
@@ -115,6 +115,12 @@
 
     <script src="js/script.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    
+    <!-- slider -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/6-1-6/js/6-1-6.js"></script>
+    <script src="js/slider.js"></script>
 
 </body>
 </html>

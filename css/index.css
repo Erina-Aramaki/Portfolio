@@ -5,16 +5,23 @@
 }
 
 
-#profile, #work, #news {
+#profile, #work {
   margin-top: 50px;
   border: solid 10px pink;
   position: relative;
   padding: 40px;
 }
 
+#news {
+  margin-top: 50px;
+  border: solid 10px pink;
+  position: relative;
+  padding: 40px 0;
+}
+
 h2 {
   position: absolute;
-  background-color: white;
+  background-color: #eee;
   font-size: 40px;
 }
 
@@ -99,18 +106,18 @@ h2 {
 }
 
 #news dl{
-  width: 800px;
+  width: 1000px;
   margin-left: 200px;
 }
 
 #news dt{
-  width: 30%;
+  width: 20%;
   float: left;
 
 }
 
 #news dd {
-  width: 60%;
+  width: 80%;
 }
 
 
@@ -145,7 +152,7 @@ h2 {
 
   h2 {
     position: absolute;
-    background-color: white;
+    background-color: #eee;
     font-size: 40px;
   }
   
