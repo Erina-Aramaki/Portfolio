@@ -158,7 +158,7 @@
       </div>
     </section>
 
-    <section class="item white">
+    <section class="item second">
       <h3>機能一覧</h3>
       <div class="explane">
         <ul>
@@ -168,32 +168,33 @@
                 <li>ユーザー情報表示</li>
                 <li>ログイン、ログアウト</li>
             </ul>
-            <li>エンタメ</li>
+            <li class="first">エンタメ</li>
                 <ul>
                     <li>回数ガチャ</li>
                     <li>重量ガチャ</li>
                 </ul>
-            <li>トレーニング</li>
+            <li class="first">トレーニング</li>
                 <ul>
-                    <li>身長、体重</li>
-                    <li>マシン名、重量、回数、セット数</li>
-                    <li>写真</li>
+                  <li>記録</li>
+                    <ul class="third">
+                      <li>身長、体重</li>
+                      <li>マシン名、重量、回数、セット数</li>
+                      <li>写真</li>
+                      <li>BMI計算</li>
+                    </ul>
+                  <li>グラフ表示</li>
+                    <ul class="third">
+                        <li>体重、BMI、適正体重</li>
+                        <li>マシン使用率</li>
+                        <li>トレーニング記録</li>
+                      </ul>
+                  <li>一覧表示</li>
+                      <ul class="third">
+                          <li>体重、BMI</li>
+                          <li>前回のトレーニング記録</li>
+                      </ul>
+                  <li>カレンダー表示</li>
                 </ul>
-            <li>BMI計算</li>
-            <li>グラフ表示</li>
-                <ul>
-                    <li>体重、BMI、適正体重</li>
-                    <li>マシン使用率</li>
-                    <li>トレーニング記録</li>
-                </ul>
-            <li>一覧表示</li>
-                <ul>
-                    <li>体重、BMI</li>
-                    <li>前回のトレーニング記録</li>
-                </ul>
-            <li>カレンダー表示</li>
-            <li>アルバム表示</li>
-            
         </ul>
       </div>
     </section>
@@ -246,22 +247,78 @@
     <section class="item">
       <h3>工夫したこと</h3>
       <div class="explane">
-        
+        <ul>
+          <li>進捗管理</li>
+          <p>WBSとガントチャートにより進捗管理をした</p>
+          <li>画面遷移図</li>
+          <p>ラフプロトタイプを作成し、各画面の動きや流れを整理した</p>
+          <li>UI/UX設計</li>
+          <p>利用者のペルソナを設定しゴールを明確化、UI/UX設計をすることでシステム全体の整合性が取れるようにした</p>
+          <li>ユーザー登録</li>
+            <ul>
+              <li>画像登録がnullの場合、デフォルトの画像を表示</li>
+              <li>1つのHTMLを複数の処理で使いまわせる設計</li>
+            </ul>
+          <li>コンフリクト対策</li>
+          <p>各メンバーそれぞれのController、HTMLで制作を進め、最終的に結合を行った</p>
+          <li>グラフ作成</li>
+          <p>List<>データを取得後、List<List<>>のデータを一つ一つ取り出した</p>
+          <figure>
+            <figcaption>
+              <p>List<>データを取得後、List<List<>>のデータを一つ一つ取り出した</p>
+              <p>↓リスト型のクラスを入れ子にして渡す（Java）</p>
+            </figcaption>
+            <img src="image/List1.PNG" alt="Javaソースコード" id="image7" onclick="func7()">
+          </figure>
+          <figure>
+            <figcaption>
+              <p>↓入れ子になったデータをインデックス指定で受け取る（JavaScript）</p>
+            </figcaption>
+            <img src="image/List2.PNG" alt="JavaScriptソースコード" id="image8" onclick="func8()">
+          </figure>
+        </ul>
       </div>
     </section>
 
 
     <section class="item">
-      <h3>苦労した点</h3>
+      <h3>反省点</h3>
       <div class="sentence">
-        
+        <ul>
+          <li>初期設計</li>
+          <p>各機能の詳細設計が甘く、製作途中で機能の追加や変更が多々あったため、その都度軌道修正した。<br>もっと内容を詰めるべきだった。</p>
+          <li>コミュニケーション不足による認識の齟齬</li>
+          <p>進捗管理はWBSとガントチャートにそれぞれ記入してもらうことで管理できると考えていたが、<br>
+            実際は更新が後回しになっていることが多々あった。<br>
+            ツールだけに頼るのではなく、一人一人に確認した上でツール活用することが大事だと感じた。</p>
+          <li>優先順位</li>
+          <p>優先度は機能のみで考えていたが、機能・画面・コントローラーの3つの観点で考え、<br>最初に認識のすり合わせをすべきだった。</p>
+          <li>スケジュール調整</li>
+          <p>優先順位の高い機能の実装が遅れたことにより、他の実装が待ち状態になってしまったため、<br>スケジュール全体が1週間押してしまった。</p>
+        </ul>
       </div>
     </section>
 
-    <section class="item white">
+    <section class="item">
       <h3>今後実装予定</h3>
-      <div class="explane">
-       
+      <div class="sentence">
+       <ul>
+        <li>パスワードのハッシュ化</li>
+        <li>記録の編集、削除</li>
+        <li>筋トレメニュー診断機能</li>
+        <li>ログイン認証</li>
+       </ul>
+      </div>
+    </section>
+
+    <section class="item">
+      <h3>感想</h3>
+      <div class="sentence">
+        <ul>
+          <li>1人で制作する際は自分1人の理想を詰め込めば良かったが、<br>チーム開発ではチームメンバー全員の理想を詰め込み、データの受け渡しの流れを考慮する必要があったため、<br>認識のすり合わせに多くの時間を要し、苦戦した。</li>
+          <li>チーム開発の問題の発生、解決を通して、チームワークの重要性を実感できた。</li>
+          <li>実際に業務で開発をする前に学校でチーム制作をすることができ、良い経験になった。</li>
+        </ul>
       </div>
     </section>
         

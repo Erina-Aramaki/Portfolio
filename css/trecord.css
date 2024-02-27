@@ -86,9 +86,9 @@ h2::after {
   /* margin-bottom: 10px; */
 }
 
-figcaption > p {
+/* figcaption > p {
   margin-top: 10px;
-}
+} */
 
 #image1, #image2, #image3, #image4, #image5 {
   width: 50%;
@@ -104,12 +104,40 @@ figcaption > p {
   transition: all 500ms 0s ease;
 }
 
+#image7 {
+  width: 90%;
+height: auto;
+
+transition: all 500ms 0s ease;
+}
+
+#image8 {
+  width: 90%;
+height: auto;
+
+transition: all 500ms 0s ease;
+}
+
 
 
 .on {
-  transform: scale(1.6, 1.6) translate(0px, 0px);
+  transform: scale(2.5, 2.5) translate(0px, 0px);
 }
 .off {
+  transform: scale(1.0, 1.0) translate(0px, 0px);
+}
+
+.on_wireframe {
+  transform: scale(1.5, 1.5) translate(0px, 0px);
+}
+.off_wireframe {
+  transform: scale(1.0, 1.0) translate(0px, 0px);
+}
+
+.on_cord {
+  transform: scale(2.0, 2.0) translate(0px, 0px);
+}
+.off_cord {
   transform: scale(1.0, 1.0) translate(0px, 0px);
 }
 
@@ -136,10 +164,18 @@ footer {
   margin-left: 70px;
 }
 
-.white  ul:nth-child(n+2){
+.first {
+  margin-top: 30px;
+}
+.second  ul:nth-child(n+2){
   list-style-type: circle;
   margin-top: 0px;
-  margin-left: 30px;
+  margin-left: 50px;
+}
+
+.third li{
+  list-style-type: disc;
+  margin-top: 0px;
 }
 
 .border {
@@ -152,6 +188,8 @@ footer {
 .item figure {
   text-align: center;
 }
+
+.item 
 
   /* スマホ端末用CSS */
 @media screen and (max-width: 600px) {
@@ -244,9 +282,9 @@ footer {
     /* margin-bottom: 10px; */
   }
   
-  figcaption > p {
+  /* figcaption > p {
     margin-top: 10px;
-  }
+  } */
   
   #image1 {
     width: 100%;
