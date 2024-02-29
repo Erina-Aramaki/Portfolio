@@ -9,9 +9,8 @@
 何卒よろしくお願いいたします。     
 
 
-<!--- ## サイトURL
+## サイトURL
 https://erina-aramaki.github.io/portfolio/
---->
 
 
 ## 使用技術
@@ -23,6 +22,7 @@ https://erina-aramaki.github.io/portfolio/
 - コード管理
     - Fork
     - GitHub
+
 
 ## 今後実装予定
 - レスポンシブ対応
