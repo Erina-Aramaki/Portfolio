@@ -1,9 +1,10 @@
 @charset "utf-8";
 
-h2::before {
+h2::after {
     content: "荒牧 江莉奈\A";
     white-space: pre;
     font-size: 18px;
+    margin-top: 14px;
 }
 
 .main_visual p::after {
@@ -13,6 +14,11 @@ h2::before {
 
 h2 {
     font-size: 30px;
+}
+
+.name {
+    width:400px;
+    margin-top: 24px;
 }
 
 #profile figure img {
@@ -89,19 +95,19 @@ h3 {
 }
 
 #work dl{
-    
+    width: 800px;
     box-sizing: border-box;
     flex-wrap: wrap;
-    margin-left: 180px;
+    margin-left: 100px;
 }
 
 #work dt{
-    width: 40%;
+    width: 30%;
     float: left;
 }
 
 #work dd{
-    width: 60%;
+    width: 70%;
 }
 
 /* #work p {
@@ -111,7 +117,7 @@ h3 {
 } */
 
 #background dl{
-    width: 500px;
+    width: 700px;
     /* width: 100%; */
     box-sizing: border-box;
     flex-wrap: wrap;
@@ -120,12 +126,12 @@ h3 {
 
 #background dt {
     /* margin-left: 200px; */
-    width: 30%;
+    width: 20%;
     /* width: 100px; */
 }
 
 #background dd {
-    width: 70%;
+    width: 80%;
     /* width: 300px; */
     /* margin-right: 200px; */
 }
