@@ -1,7 +1,12 @@
 @charset "utf-8";
-    
+
+main_visual p{
+  text-align: center;
+}
+
 .main_visual p::after {
   content: "ポートフォリオ";
+  text-align: center;
 }
 
 
