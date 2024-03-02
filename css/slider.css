@@ -73,11 +73,14 @@
 
 /*========= レイアウトのためのCSS ===============*/
 
-body{
-  background:#fff;
+/* body{
+  background:#eee;
 }
 
-
+h2,p {
+    text-align:center;
+    padding:20px;
+}
 
 ul{
   margin:0;
@@ -87,9 +90,9 @@ ul{
 
 a{
   color: #333;
-}
+} 
 
 a:hover,
 a:active{
   text-decoration: none;
-}
+} */
