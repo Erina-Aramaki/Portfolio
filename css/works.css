@@ -46,3 +46,13 @@ h2 {
   width: 900px;
   height: auto;
 }
+
+/* スマホ端末用CSS */
+@media screen and (max-width: 600px) {
+
+  .slide img {
+    width: 300px;
+    height: auto;
+  }
+  
+}

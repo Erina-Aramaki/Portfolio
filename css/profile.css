@@ -156,20 +156,37 @@ h3 {
 
 /* スマホ端末用CSS */
 @media screen and (max-width: 600px){
-    h2::before {
+    h2::after {
         content: "荒牧 江莉奈\A";
         white-space: pre;
-        font-size: 18px;
+        font-size: 10px;
+        margin-left: 8px;
     }
 
     .main_visual p::after {
         content: "自己紹介";
     }
-    
+
+    .name {
+        width:240px;
+        margin-top: 24px;
+    }
 
     h2 {
-        font-size: 30px;
-    }
+        position: absolute;
+        background-color: white;
+        font-size: 20px;
+    
+        /* top: 360px;
+        left: 480px;
+        padding: 0 20px; */
+    
+        top: 360px;
+        left: 48px;
+        padding: 0 20px;
+
+        z-index: 10;
+    }  
 
     #profile figure img {
         width: 90%;
@@ -183,7 +200,7 @@ h3 {
     }
 
     #profile dl{
-        width:100%;
+        width:95%;
         margin-top: 35px;
         margin-left: 8%;
         display: flex;

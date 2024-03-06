@@ -161,7 +161,8 @@ footer {
 }
 
 .list ul {
-  margin-left: 70px;
+  margin-left: 50px;
+  margin-right: 40px;
 }
 
 .first {
@@ -297,10 +298,26 @@ footer {
   }
 
   .on {
-    transform: scale(2.0, 2.0) translate(-8%, 0px);
+    transform: scale(2.0, 2.0) translate(0px, 0px);
   }
   .off {
     transform: scale(1.0, 1.0) translate(0px, 0px);
+  }
+
+  .first {
+    margin-top: 30px;
+  }
+  .second  ul:nth-child(n+2){
+    list-style-type: circle;
+    margin-top: 0px;
+    margin-left: 40px;
+    width: 90%;
+  }
+  
+  .third li{
+    list-style-type: disc;
+    margin-top: 0px;
+    width: 95%;
   }
   
   footer {
