@@ -127,6 +127,7 @@ h3 {
 
 #work dd.job_contents{
     width: 35%;
+    margin: auto;
 }
 
 /* #work p {
