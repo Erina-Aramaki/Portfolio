@@ -121,11 +121,12 @@ h3 {
 
 
 #work dd.job_name{
-    width: 30%;
+    width: 35%;
+    
 }
 
 #work dd.job_contents{
-    width: 40%;
+    width: 35%;
 }
 
 /* #work p {
@@ -331,7 +332,7 @@ h3 {
         text-align: center;
     }
 
-    #work dd{
+    #work dd.job_name, #work dd.job_contents{
         width: 100%;
         margin: 0 auto;
         text-align: center;
