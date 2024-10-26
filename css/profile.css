@@ -339,6 +339,14 @@ h3 {
         text-align: center;
     }
 
+    #work dd.job_contents{
+        padding-bottom: 3%;
+    }
+
+    #work dd.job_contents:last-child {
+        padding-bottom: 0%;
+    }
+
     #background dl{
         width: 95%;
         box-sizing: border-box;
