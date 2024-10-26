@@ -119,11 +119,14 @@ h3 {
     float: left;
 }
 
-/*
-#work dd{
-    width: 70%;
+
+#work dd.job_name{
+    width: 30%;
 }
-*/
+
+#work dd.job_contents{
+    width: 40%;
+}
 
 /* #work p {
     width: 500px;
